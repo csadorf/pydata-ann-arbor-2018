@@ -9,3 +9,4 @@ dependencies:
   - signac-flow
   - ffmpeg
   - cloudpickle
+  - htop
