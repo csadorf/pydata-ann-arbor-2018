@@ -2,5 +2,9 @@ jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable python-markdown/main
 
+# Launch the simple-scheduler
+simple-scheduler run 2>/dev/null &
+export SIMPLE_SCHEDULER="/srv/conda/bin/simple-scheduler --data=/home/jovyan/.local/share/simple-scheduler"
+
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
