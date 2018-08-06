@@ -1,0 +1,7 @@
+signac.rc
+workspace/
+project.py
+*.err.*
+*.out.*
+signac_project_document.json
+view/
