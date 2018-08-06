@@ -11905,15 +11905,45 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="signac---PyData-Ann-Arbor-MeetUp-2018">signac - PyData Ann Arbor MeetUp 2018<a class="anchor-link" href="#signac---PyData-Ann-Arbor-MeetUp-2018">&#182;</a></h1><p>Ann Arbor, MI, Aug 7th, 2018</p>
+<h1 id="signac---PyData-Ann-Arbor-Meetup-2018">signac - PyData Ann Arbor Meetup 2018<a class="anchor-link" href="#signac---PyData-Ann-Arbor-Meetup-2018">&#182;</a></h1><p>Ann Arbor, MI, Aug 7th, 2018</p>
 <p>The signac framework supports researchers in managing project-related data with a well-defined indexable storage layout for data and metadata. This streamlines post-processing and analysis and makes data collectively accessible.</p>
 <p>Signac is open-source and freely available for Python versions 2.7.x and 3.4+.</p>
 <ul>
 <li>Homepage: <a href="http://www.signac.io">http://www.signac.io</a></li>
 <li>Documentation: <a href="https://signac-docs.readthedocs.io">https://signac-docs.readthedocs.io</a></li>
 </ul>
-<p>This presentation is hosted at: <a href="https://csadorf.github.io/pydata-ann-arbor-2018">https://csadorf.github.io/pydata-ann-arbor-2018</a> <strong><a href="https://bit.ly/2vIYtnZ">https://bit.ly/2vIYtnZ</a></strong></p>
+<p>This presentation is hosted at: <span style="font-family:'Lucida Console', Monaco, monospace"><a href="https://bit.ly/2vIYtnZ">https://bit.ly/2vIYtnZ</a></span><img width="64" height="64" src="media/logo.png" align="right"></p>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Our-Research">Our Research<a class="anchor-link" href="#Our-Research">&#182;</a></h2><style>
+* {
+    box-sizing: border-box;
+}
 
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    vertical-align: middle;
+    width: 50%;
+    padding: 10px;
+    height: 320px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style><div class="row">
+    <div class="column"><p><ul><li>Computational materials research on the nano- to microscale on leadership-class supercomputers (XSEDE, INCITE, etc)</li><li>Development of community-driven open-source software (HOOMD-blue, signac, freud, rowan, ...)</li><li>Application of machine-learning techniques for data-driven materials discovery</li></ul></p></div>
+    <div class="column"><p><a href="media/xiyudu_movie.mp4"><img src="media/xiyudu_movie.png" width="640" height="320"></a>Video provided by courtesy of Chrisy Xiyu Du.</p></div>
+</div>
 </div>
 </div>
 </div></section></section><section><section>
@@ -11923,7 +11953,7 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Simple-Example">Simple Example<a class="anchor-link" href="#Simple-Example">&#182;</a></h2><p>Here is an exemplary problem we typically encounter when managing <strong>parameterized</strong> data spaces on the file system.</p>
 <p>We run a series of (computational) experiments on a <strong>binary mixture</strong> and need to store related files on the file system.
-<img src="images/flasks.png" alt="flasks"></p>
+<img src="media/flasks.png" alt="flasks"></p>
 
 </div>
 </div>
@@ -12048,7 +12078,7 @@ temp_1/conc_A/25</code></pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Actually, we need to bring in a component <em>C</em>:</p>
+<p><em>Actually</em>, we need to bring in a component <em>C</em>:</p>
 
 <pre><code>temp_08/conc_A/25/conc_B/05
 temp_08/conc_A/50
@@ -12063,7 +12093,7 @@ temp_1/conc_A/25</code></pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The <strong>signac</strong> framework is named after the painter <strong>Paul Signac</strong>.</p>
-<p><img src="images/paul_signac_pointillism.png" alt="Paul Signac">
+<p><img src="media/paul_signac_pointillism.png" alt="Paul Signac">
 The technique of creating natural images out of many small painting dots serves as a metaphor for <strong>signac</strong>'s data model.</p>
 
 </div>
@@ -12073,7 +12103,7 @@ The technique of creating natural images out of many small painting dots serves 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Overview">Overview<a class="anchor-link" href="#Overview">&#182;</a></h2><p><img src="images/overview-core.png" alt="Overview"></p>
+<h2 id="Overview">Overview<a class="anchor-link" href="#Overview">&#182;</a></h2><p><img src="media/overview-core.png" alt="Overview"></p>
 
 </div>
 </div>
@@ -12082,7 +12112,7 @@ The technique of creating natural images out of many small painting dots serves 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Overview">Overview<a class="anchor-link" href="#Overview">&#182;</a></h2><p><img src="images/overview-core+flow.png" alt="Overview"></p>
+<h2 id="Overview">Overview<a class="anchor-link" href="#Overview">&#182;</a></h2><p><img src="media/overview-core+flow.png" alt="Overview"></p>
 
 </div>
 </div>
@@ -12118,8 +12148,7 @@ The technique of creating natural images out of many small painting dots serves 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Demonstration">Demonstration<a class="anchor-link" href="#Demonstration">&#182;</a></h2><p><a href="https://mybinder.org/v2/gh/csadorf/pydata-ann-arbor-2018/master?urlpath=lab">Launch interactive jupyter lab session</a></p>
-
+<h2 id="Demonstration">Demonstration<a class="anchor-link" href="#Demonstration">&#182;</a></h2><h3 id="Launch-interactive-jupyter-lab-session"><a href="https://mybinder.org/v2/gh/csadorf/pydata-ann-arbor-2018/master?urlpath=lab">Launch interactive jupyter lab session</a><a class="anchor-link" href="#Launch-interactive-jupyter-lab-session">&#182;</a></h3>
 </div>
 </div>
 </div></section></section><section><section>
@@ -12127,7 +12156,7 @@ The technique of creating natural images out of many small painting dots serves 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Thank-you-very-much-for-your-attention!">Thank you very much for your attention!<a class="anchor-link" href="#Thank-you-very-much-for-your-attention!">&#182;</a></h2><p><img src="images/acknowledgment.png" alt="Acknowledgment"></p>
+<h2 id="Thank-you-very-much-for-your-attention!">Thank you very much for your attention!<a class="anchor-link" href="#Thank-you-very-much-for-your-attention!">&#182;</a></h2><p><img src="media/acknowledgment.png" alt="Acknowledgment"></p>
 
 </div>
 </div>
