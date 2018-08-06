@@ -9,7 +9,8 @@ You can launch an **interactive** version of these notebooks following [this lin
 
 The **signac** framework is a collection of Python packages that are designed to automate computational investigations and manage the underlying data spaces. The framework is lightweight and easy to integrate with other tools, such as [pandas](https://pandas.pydata.org/) or [tensorflow](https://www.tensorflow.org/).
 
-* Part 1 - Introduction to signac's core functions ([slides](https://csadorf.github.io/pydata-ann-arbor-2018/))
+* Part 1 - Introduction to signac's core functions ([slides](https://csadorf.github.io/pydata-ann-arbor-2018/), [source](intro.ipynb))
+
 * Part 2 - Demonstration of **signac** and **signac-flow**: A case study on projectile motion ([interactive notebook](https://mybinder.org/v2/gh/csadorf/pydata-ann-arbor-2018/master?urlpath=lab/tree/projectile/animate-projectile.ipynb), [source](projectile/animate-projectile.ipynb))
 * Part 3 - The Python Ecosystem: Integrating **signac** with other Python tools, including [pandas](https://pandas.pydata.org/), [Sacred](https://github.com/IDSIA/sacred), and [datreant.core](http://datreant.org) ([interactive notebook](https://mybinder.org/v2/gh/csadorf/pydata-ann-arbor-2018/master?urlpath=lab/tree/integration/Integration.ipynb), [source](integration/Integration.ipynb))
 
