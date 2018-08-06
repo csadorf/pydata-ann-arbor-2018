@@ -10,3 +10,7 @@ dependencies:
   - ffmpeg
   - cloudpickle
   - htop
+  - pandas
+  - pip:
+    - sacred
+    - datreant
