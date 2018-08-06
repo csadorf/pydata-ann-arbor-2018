@@ -17,7 +17,7 @@ def plot(velocity, theta):
 
     fig, ax = plt.subplots(figsize=(12, 9))
     ax.set_aspect('equal')
-    ax.set_title("v={} m/s \u03b8={:.1f}\u00b0".format(velocity, theta * 180 / np.pi))
+    ax.set_title("v={} m/s, \u03b8={:.1f}\u00b0".format(velocity, theta * 180 / np.pi))
     ax.set_xlabel('x [km]')
     ax.set_ylabel('y [km]')
     ax.set_xlim(0, 1000)
