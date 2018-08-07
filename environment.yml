@@ -11,6 +11,7 @@ dependencies:
   - cloudpickle
   - htop
   - pandas
+  - tqdm
   - pip:
     - sacred
     - datreant
